@@ -1,3 +1,8 @@
 import { Router } from "express";
 const router = Router();
-export default router;
+
+router.route( "/" )
+    .get((req, res) => res.send("hello word" ));
+
+
+export default router; 
