@@ -3,6 +3,6 @@ import {startConnection} from "./database";
 async function main(){
     startConnection();
     await app.listen( app.get("port"));
-    console.log( "Server on Port=>", app.get( "port"));
+    console.log( "Server on Port =>", app.get( "port"));
 }
 main();

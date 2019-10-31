@@ -1,10 +1,10 @@
-import { connect } from "mongoose"
+import {connect} from "mongoose";
 
-export async function startConnection ()
-{
-    const db = await connect( "mongodb://localhost/mean-gallery", {
-        useNewUrlParser: true,
-        useFindAndModify: false
-    } );
-    console.log( "Database is connected in your computer now!" );
+export async function startConnection(){
+    // const db = await connect( "mongodb://localhost/mean-gallery",{
+	await connect( "mongodb://localhost/mean-gallery",{
+        useNewUrlParser: true
+        // useFindAndModify: false 
+    });
+    console.log( "Database is connected in your computer now!");
 }
