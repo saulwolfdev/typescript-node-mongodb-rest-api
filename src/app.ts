@@ -5,7 +5,7 @@ import path from 'path';
 const app = express();
 
 //settings
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 4000);
 //middlewares
 app.use(morgan("dev"));
 app.use(express.json());

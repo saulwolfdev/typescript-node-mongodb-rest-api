@@ -8,7 +8,5 @@ export async function startConnection(){
 		useUnifiedTopology: true
 
     }) 
-    console.log( "Database is connected in your computer now!");
-		
-
+    console.log( "Database is connected in your computer now wolf!");
 }
